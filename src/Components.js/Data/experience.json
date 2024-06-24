@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "role": "Training - Frontend developer (React js)",
+    "organisation": "TECHedo Technologies PVT ltd",
+    "startDate": "March, 2024",
+    "endDate": "Present",
+    "location": "Chandigarh",
+    "experiences": [
+      "HTML/CSS/Bootstrap",
+      "JavaScript/JQuery",
+      "Reactjs/Redux"
+    ],
+    "imageSrc": "company/techedo.png"
+  },
+  {
+    "id": 2,
+    "role": "Business Development Executive",
+    "organisation": "BFMS Lab Pvt ltd",
+    "startDate": "Nov, 2023",
+    "endDate": "Feb, 2024",
+    "location": "Mohali, Punjab",
+    "experiences": [
+      "Bids on digital marketing and Web development projects",
+      "Client handling etc"
+    ],
+    "imageSrc": "company/bfmslabs.jpg"
+  }
+]
+  
