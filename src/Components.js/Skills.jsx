@@ -4,8 +4,8 @@ function Skills() {
   console.log(skills);
   return (
     <>
-      <div className="container skills" id="skills">
-        <h1>Skills</h1>
+      <div className="container skills " id="skills">
+        <h1 className="my-5">Skills</h1>
         <div className="items">
           {skills.map((data) => (
             <div className="item" key={data.id}>

@@ -23,9 +23,10 @@ function Home() {
   }, []);
   return (
     <>
-      <div className="container home" id="home">
-        <div className="left">
-          <h1 ref={typedRef}>I'm a Web Devloper</h1>
+      <div className="container home " id="home">
+      <div className="row align-items-center">
+        <div className="col-lg-6 col-md-12 mb-4 mb-lg-0 left">
+          <h1 ref={typedRef}>I'm a Web Developer</h1>
           <a
             href={Pdf}
             download="Sumit-FE-Reactjs.pdf"
@@ -34,13 +35,17 @@ function Home() {
             Download Resume
           </a>
         </div>
-
-        <div className="right">
+        <div className="col-lg-6 col-md-12 text-center right">
           <div className="img">
-            <img src={`/assest/${Hero.imgSrc}`} alt="hero" />
+            <img
+              src={`/assest/${Hero.imgSrc}`}
+              alt="hero"
+              className="img-fluid"
+            />
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 }

@@ -3,10 +3,10 @@ function Project() {
   return (
     <>
       <div className="container projects my-4" id="projects">
-        <h1>PROJECTS</h1>
+        <h1 className="my-5">PROJECTS</h1>
         <div className="row d-flex justify-content-center align-content-center">
           {projects.map((ty) => (
-            <div key={ty.id} className="my-3 col-md-4 col-lg-3 col-sm-6  mx-4 big">
+            <div key={ty.id} className="my-5 col-md-3 col-lg-3 col-sm-3  mx-5 big">
               <div
                 className="card bg-dark text-light "
                 style={{ width: "18rem", border:"1px solid  yellow", boxShadow:"5px 5px 10px 10px rgba(101, 175, 10, 0.5)" }}
