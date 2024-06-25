@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../pdf/seoService.pdf";
+import Pdf from "../pdf/SumitReactJS.pdf";
 import Hero from "./Data/hero.json";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
@@ -28,7 +28,7 @@ function Home() {
           <h1 ref={typedRef}>I'm a Web Devloper</h1>
           <a
             href={Pdf}
-            download="SeoService.pdf"
+            download="Sumit-FE-Reactjs.pdf"
             className="btn btn-outline-warning my-3"
           >
             Download Resume

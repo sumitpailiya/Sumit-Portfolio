@@ -9,13 +9,13 @@ const Contact = () => {
     <div className="container contact" id="contact">
       <h1>CONTACT ME</h1>
       <div className="contact-icon">
-        <a href="https://www.linkedin.com/in/sumit-singh-pailiya/" target="_blank" className="items">
+        <a href="https://www.linkedin.com/in/sumit-singh-pailiya/" target="_blank" rel="noreferrer" className="items">
           <FaLinkedin className="icons" />
         </a>
-        <a href="https://github.com/sumitpailiya" target="_blank" className="items">
+        <a href="https://github.com/sumitpailiya" target="_blank" rel="noreferrer" className="items">
           <FaGithubSquare className="icons" />
         </a>
-        <a href="maito:sumitpailiya20@gmail.com" target="_blank" className="items">
+        <a href="maito:sumitpailiya20@gmail.com" target="_blank" rel="noreferrer" className="items">
           <SiGmail className="icons" />
           
         </a>
